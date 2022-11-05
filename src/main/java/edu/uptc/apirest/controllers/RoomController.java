@@ -9,7 +9,7 @@ import edu.uptc.apirest.services.RoomService;
 
 @RestController
 @RequestMapping("/rooms")
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "*")
 public class RoomController {
 
     @Autowired
