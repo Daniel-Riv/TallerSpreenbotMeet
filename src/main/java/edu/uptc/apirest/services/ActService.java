@@ -58,7 +58,7 @@ public class ActService {
 
         if(act.getId()!=null){
             Optional<Act> e = actRepository.findById(act.getId());
-            if(e.isEmpty()){
+            if(e.isPresent()){
                 if(act.getDescription()!=null){
                     e.get().setDescription(act.getDescription());
                 }
