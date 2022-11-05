@@ -9,7 +9,7 @@ import edu.uptc.apirest.services.RoomService;
 
 @RestController
 @RequestMapping("/rooms")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://taller-meets-front.vercel.app/")
 public class RoomController {
 
     @Autowired

@@ -11,7 +11,7 @@ import edu.uptc.apirest.services.MeetService;
 
 @RestController
 @RequestMapping("/meets")
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://taller-meets-front.vercel.app/")
 public class MeetController {
 
     @Autowired
